@@ -1,0 +1,96 @@
+#navbar {
+	padding: 5px;
+	display: flex;
+	justify-content: space-around;
+	font-size: 8px;
+	background: black;
+	color: white;
+	margin-top: -8px;
+	margin-right: -8px;
+	margin-left: -8px;
+	align-items: center;
+    background-image: url(images/GYM2.jpg);
+        
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 3px solid white;
+
+    /*background-attachment: fixed;
+        
+     */
+}
+
+#navbar a {
+  appearance: none;
+  background-color: #292929;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  padding: 6px 16px;
+  position: relative;
+  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  word-wrap: break-word;
+size: 50%;
+  text-decoration: none;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index:2
+}
+
+
+#app {
+	margin-right: 40%;
+	font-size: 25px;
+}
+
+
+#navbar a:hover {
+  background-color: #002afa;
+  text-decoration: none;
+  transition-duration: 0.1s;
+}
+
+#navbar a:disabled {
+  background-color: #FAFBFC;
+  border-color: rgba(27, 31, 35, 0.15);
+  color: #959DA5;
+  cursor: default;
+}
+
+#navbar a:active {
+  background-color: #005eeb;
+  box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+  transition: none 0s;
+}
+
+#navbar a:focus {
+  outline: 1px transparent;
+}
+
+#navbar a:before {
+  display: none;
+}
+
+#navbar a:-webkit-details-marker {
+  display: none;
+}
+
+/* END of navbar css*/

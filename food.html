@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Nutrition</title>
+	<link href="food.css" rel="stylesheet" type="text/css" />
+	<script src="//cdn.rawgit.com/dcodeIO/protobuf.js/6.X.X/dist/protobuf.min.js"></script>
+	<script defer src="food.js"></script>
+</head>
+
+<body>
+	<div id="navbar">
+
+		<h1 id="app">Fitness101</h1>
+
+		<a href="index.html">
+			<h1>Workouts</h1>
+		</a>
+
+		<a href="food.html"">
+            <h1>Nutrition</h1>
+        </a>
+
+        <a href=" schedule.html">
+			<h1>Schedule</h1>
+		</a>
+
+		<a href="about_us.html">
+			<h1>About Us</h1>
+		</a>
+
+	</div>
+
+	<div id="userinfo">
+		<form>
+			<label for="userInput">What type of type of food do you feel like eating?</label>
+			<input type="text" list="userinput" id="userInput" name="userInput">
+
+			<datalist id="userinput">
+				<option value="pizza"></option>
+				<option value="pasta"></option>
+				<option value="chicken"></option>
+				<option value="beef"></option>
+				<option value="tacos"></option>
+			</datalist>
+		</form>
+		<button id="foodSubmit">Food Time!</button>
+	</div>
+
+	<div id="foodContainer">
+
+	</div>
+
+
+</body>
+
+</html>
