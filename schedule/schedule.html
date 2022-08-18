@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Fitness101</title>
+    <link href="schedule.css" rel="stylesheet" type="text/css" />
+    <script defer src="schedule.js"></script>
+    <link rel="icon" href="images/fitness101_icon.png">
+</head>
+
+<body>
+    <div id="navbar">
+
+        <img id="app" src="../images/fitness101 logo2.png">
+
+        <a href="../index.html">
+            <h1>Workouts</h1>
+        </a>
+
+        <a href="../Nutrition/food.html">
+            <h1>Nutrition</h1>
+        </a>
+
+        <a href="schedule.html">
+            <h1>Schedule</h1>
+        </a>
+
+        <a href="../About/about_us.html">
+            <h1>About Us</h1>
+        </a>
+
+    </div>
+
+    <div id="bodyTest">
+
+        <div>
+            <form id="active">
+                <span>In General How Active Are You?</span>
+                <br>
+
+                <input type="radio" name="active" id="very" value="VeryActive">
+                <label for="very">Very Active</label>
+
+                <input type="radio" name="active" id="somewhat" value="SomewhatActive">
+                <label for="somewhat">Somewhat Active</label>
+
+                <input type="radio" name="active" id="not" value="NotActive">
+                <label for="not active">Not Active At All</label>
+
+            </form>
+        </div>
+
+        <br>
+
+        <div>
+            <form id="healthyfood">
+                <span>How healthy do you eat during a regular week?</span>
+                <br>
+
+                <input type="radio" name="healthyfood" id="veryhealthy" value="veryhealthy">
+                <label for="veryhealthy">Very Healthy</label>
+
+                <input type="radio" name="healthyfood" id="somewhathealthy" value="somewhathealthy">
+                <label for="somewhathealthy">Somewhat Healthy</label>
+
+                <input type="radio" name="healthyfood" id="nothealthy" value="nothealthy">
+                <label for="nothealthy">Not Healthy At All</label>
+
+            </form>
+        </div>
+
+        <br>
+
+        <div>
+            <form id="weight">
+                <span>How Much Do You Weigh?</span>
+                <br>
+
+                <input type="radio" name="weight" id="heavy" value="heavy">
+                <label for="heavy">190 or higher</label>
+
+                <input type="radio" name="weight" id="medium" value="medium">
+                <label for="medium">120-190</label>
+
+                <input type="radio" name="weight" id="light" value="light">
+                <label for="light">120 or lower</label>
+            </form>
+        </div>
+
+        <br>
+
+        <div>
+            <form id="height">
+                <span>How Tall are You?</span>
+				<br>
+				
+                <input type="radio" name="height" id="tall" value="tall">
+                <label for="tall">5'9 or taller</label>
+
+                <input type="radio" name="height" id="average" value="average">
+                <label for="average">5'6-5'8</label>
+
+                <input type="radio" name="height" id="short" value="short">
+                <label for="short">5'5 or below</label>
+            </form>
+        </div>
+
+        <br>
+        <button id="submit">Get Your Schedule</button>
+        <br>
+    </div>
+
+
+    <div id="scheduleContainer">
+
+    </div>
+
+</body>
+
+</html>

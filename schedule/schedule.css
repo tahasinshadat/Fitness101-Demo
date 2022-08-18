@@ -1,0 +1,179 @@
+/* NAV BAR CSS*/
+
+@font-face {
+    font-family: 'splatfont_2regular';
+    src: url('../fonts/splatfont2-webfont.woff2') format('woff2'),
+         url('../fonts/splatfont2-webfont.woff') format('woff'),
+         url('../fonts/Splatfont2.tff') format('tff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    background-image:url(../images/stripes\(1\).jpg);
+    background-repeat:repeat; 
+    background-color: grey;
+}
+#navbar {
+	padding: 5px;
+	display: flex;
+	justify-content: space-around;
+	font-size: 8px;
+	background: black;
+	color: white;
+	margin-top: -8px;
+	margin-right: -8px;
+	margin-left: -8px;
+	align-items: center;
+    background-image: url(../images/GYM2.jpg);
+        
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 3px solid white;
+
+    /*background-attachment: fixed;
+        
+     */
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index:2;
+
+}
+
+
+
+#app {
+	margin-right: 40%;
+	font-size: 25px;
+  width: 160px;
+}
+/* old button
+#navbar a{
+	color: white;
+	text-decoration: none;
+  background-color: black ;
+	opacity: 0.75;
+  transition: 0.3s;
+}
+
+#navbar a:hover{
+	opacity: 1;
+} */
+
+
+/* CSS */
+#navbar a {
+  appearance: none;
+  background-color: #141414;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'splatfont_2regular';
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  padding: 6px 16px;
+  position: relative;
+  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  word-wrap: break-word;
+size: 50%;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  background-color: #1498d5;
+  text-decoration: none;
+  transition-duration: 0.1s;
+}
+
+#navbar a:disabled {
+  background-color: #FAFBFC;
+  border-color: rgba(27, 31, 35, 0.15);
+  color: #959DA5;
+  cursor: default;
+}
+
+#navbar a:active {
+  background-color: #5ab5df;
+  box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+  transition: none 0s;
+}
+
+#navbar a:focus {
+  outline: 1px transparent;
+}
+
+#navbar a:before {
+  display: none;
+}
+
+#navbar a:-webkit-details-marker {
+  display: none;
+}
+
+
+/* END OF NAVBAR CSS*/
+
+#bodyTest {
+text-align: center;
+	background: white;
+	color: black;
+	border: 5px solid black;
+	border-radius: 25px;
+	padding: 10px;
+	margin-top: 30px;
+	box-shadow: 0px 0px 20px 2px black;
+    text-transform: capitalize;
+  font-family: splatfont_2regular;
+  letter-spacing: 1px;
+
+}
+
+#bodyTest form{
+    font-size: 25px;
+}
+
+#bodyTest span{
+    color: #25afef;
+}
+
+div {
+text-align: center;
+	background: white;
+	color: black;
+	border: 5px solid black;
+	border-radius: 25px;
+	padding: 10px;
+	margin-top: 30px;
+	box-shadow: 0px 0px 20px 2px black;
+    text-transform: capitalize;
+  font-family: splatfont_2regular;
+  letter-spacing: 1px;
+
+}
+
+#scheduleContainer {
+	background-color: #2493c6;
+}
+
+.workoutSchedule {
+	margin-bottom: 35px;
+	margin-right: 25px;
+	margin-left: 25px;
+}

@@ -1,116 +1,130 @@
 /* NAV BAR CSS*/
+
+@font-face {
+  font-family: 'splatfont_2regular';
+  src: url('fonts/splatfont2-webfont.woff2') format('woff2'),
+       url('fonts/splatfont2-webfont.woff') format('woff'),
+       url('fonts/Splatfont2.tff') format('tff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 body{
-    background-image:url(images/stripes\(1\).jpg);
-    background-repeat:repeat; 
-    background-color: grey;
+  background-image:url(images/stripes\(1\).jpg);
+  background-repeat:repeat; 
+  background-color: grey;
 }
 #navbar {
-	padding: 5px;
-	display: flex;
-	justify-content: space-around;
-	font-size: 8px;
-	background: black;
-	color: white;
-	margin-top: -8px;
-	margin-right: -8px;
-	margin-left: -8px;
-	align-items: center;
-    background-image: url(images/GYM2.jpg);
-        
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-bottom: 3px solid white;
+padding: 5px;
+display: flex;
+justify-content: space-around;
+font-size: 8px;
+background: black;
+color: white;
+margin-top: -8px;
+margin-right: -8px;
+margin-left: -8px;
+align-items: center;
+  background-image: url(images/GYM2.jpg);
+      
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 3px solid white;
 
-    /*background-attachment: fixed;
-        
-     */
+  /*background-attachment: fixed;
+      
+   */
 }
 
 .sticky {
-  position: sticky;
-  top: 0;
-  z-index:2
+position: sticky;
+top: 0;
+z-index:2;
+
 }
 
 
 
 #app {
-	margin-right: 40%;
-	font-size: 25px;
+margin-right: 40%;
+font-size: 25px;
+width: 160px;
 }
 /* old button
 #navbar a{
-	color: white;
-	text-decoration: none;
-  background-color: black ;
-	opacity: 0.75;
-  transition: 0.3s;
+color: white;
+text-decoration: none;
+background-color: black ;
+opacity: 0.75;
+transition: 0.3s;
 }
 
 #navbar a:hover{
-	opacity: 1;
+opacity: 1;
 } */
 
 
 /* CSS */
 #navbar a {
-  appearance: none;
-  background-color: #292929;
-  border: 1px solid rgba(27, 31, 35, 0.15);
-  border-radius: 6px;
-  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
-  box-sizing: border-box;
-  color: #ffffff;
-  cursor: pointer;
-  display: inline-block;
-  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 20px;
-  list-style: none;
-  padding: 6px 16px;
-  position: relative;
-  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  vertical-align: middle;
-  white-space: nowrap;
-  word-wrap: break-word;
+appearance: none;
+background-color: #141414;
+border: 1px solid rgba(27, 31, 35, 0.15);
+border-radius: 6px;
+box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+box-sizing: border-box;
+color: #ffffff;
+cursor: pointer;
+display: inline-block;
+font-family: 'splatfont_2regular';
+letter-spacing: 1px;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+list-style: none;
+padding: 6px 16px;
+position: relative;
+transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+vertical-align: middle;
+white-space: nowrap;
+word-wrap: break-word;
 size: 50%;
-  text-decoration: none;
+text-decoration: none;
 }
 
 #navbar a:hover {
-  background-color: #002afa;
-  text-decoration: none;
-  transition-duration: 0.1s;
+background-color: #1498d5;
+text-decoration: none;
+transition-duration: 0.1s;
 }
 
 #navbar a:disabled {
-  background-color: #FAFBFC;
-  border-color: rgba(27, 31, 35, 0.15);
-  color: #959DA5;
-  cursor: default;
+background-color: #FAFBFC;
+border-color: rgba(27, 31, 35, 0.15);
+color: #959DA5;
+cursor: default;
 }
 
 #navbar a:active {
-  background-color: #005eeb;
-  box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
-  transition: none 0s;
+background-color: #5ab5df;
+box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+transition: none 0s;
 }
 
 #navbar a:focus {
-  outline: 1px transparent;
+outline: 1px transparent;
 }
 
 #navbar a:before {
-  display: none;
+display: none;
 }
 
 #navbar a:-webkit-details-marker {
-  display: none;
+display: none;
 }
 
 
@@ -121,51 +135,59 @@ size: 50%;
 .exercises{
 
 
-	text-align: center;
-	background: white;
-	color: black;
-	border: 5px solid black;
-	border-radius: 25px;
-	padding: 10px;
-	margin-top: 30px;
-	box-shadow: 0px 0px 20px 2px black;
-    text-transform: capitalize;
-
+text-align: center;
+background: white;
+color: black;
+border: 5px solid black;
+border-radius: 25px;
+padding: 10px;
+margin-top: 30px;
+box-shadow: 0px 0px 20px 2px black;
+  text-transform: capitalize;
+font-family: splatfont_2regular;
+letter-spacing: 1px;
 }
 
 .exercises img {
-	border: 4px solid black;
-	border-radius: 25px;
+border: 4px solid black;
+border-radius: 25px;
 }
 
 #muscle_target_buttons {
-	margin-top: 10px;
-	display: flex;
-	justify-content: space-around;
+margin-top: 10px;
+  font-size: 25px;
 
+display: flex;
+justify-content: space-around;
+font-family: splatfont_2regular;
 }
 
 button {
-	background: white;
+background: white;
   cursor: pointer;
-	padding: 10px;
-	border: 2px solid black;
-	border-radius: 10px;
-	opacity: 0.75;
+padding: 13px;
+border: 2px solid black;
+border-radius: 10px;
+opacity: 0.75;
   transition: all 0.3s ease-in-out;
-
+  font-family: splatfont_2regular;
+ letter-spacing: 1px;
+ font-size: 17px;
 }
 
 button:hover{
-    opacity: 1;
-    transform: scale(1.1);
+  opacity: 1;
+  transform: scale(1.1);
 }
+
 
 .welcomeMessage {
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  position: absolute;
+color: white;
+letter-spacing: 1px;
+font-family: splatfont_2regular;
+/*   font-family: Arial, Helvetica, sans-serif; */
+text-align: center;
+position: relative;
+top:50px;
 
 }
-
